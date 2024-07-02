@@ -1,0 +1,92 @@
+/* thanh truot header */
+a {
+  text-decoration: none;
+}
+header {
+  /* background-color:rgb(248, 235, 228); */
+  background-color:rgb(252, 206, 206);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+ 
+}
+.logined_modify {
+  display: flex;
+  align-items: end;
+}
+.avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.btn.show, .btn:hover {
+  color: #d40a0a !important;
+}
+
+.body_content {
+  margin-top: 100px;
+}
+
+.icon_cart, .icon_search {
+  color: #fc666f;
+}
+
+.border_cart {
+  padding: 12px;
+}
+
+.text-shadow {
+  text-shadow: 0 1px 1px rgba(85, 52, 52, 0.4);
+  
+}
+
+.text-header {
+  color: #c24141;
+}
+
+.text-header.active {
+   color: #a16363; /*đổi màu chữ */
+  text-shadow: none;
+}
+
+.page-link.active, .active> .page-link{
+  background-color: #a16363 !important;
+  border: 1px solid #fc666f !important;
+  color: #fff !important;
+}
+
+.page-link{
+  background-color: #fff !important;
+  border: 1px solid #fc666f !important;
+  color: #fc666f !important;
+}
+
+.my-btn {
+  background-color: #fc666f;
+  border: 1px solid #fc666f;
+  color: #fff;
+}
+
+.my-btn:hover {
+  transform: scale(1.05);
+  background-color: #fc666f;
+  transition: 0.25s linear;
+  border: 1px solid #fc666f;
+  color: #fff;
+}
+.img{
+  width: 0cm;
+  height: 0cm;
+}
+.dropdown-menu, .dropdown-toggle{
+  color: #c75960;
+  text-shadow: 0 1px 1px rgba(0,0,0,0.4);
+  padding-right: 20px;
+  border: none;
+  background-color: rgb(252, 206, 206);
+
+}
