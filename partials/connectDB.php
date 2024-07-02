@@ -1,6 +1,6 @@
 <?php 
 
-$dns = "mysql:host=localhost;dbname=flower-shop";
+$dns = "mysql:host=localhost;dbname=test";
 $dbusername="root";
 $dbpassword="";
 

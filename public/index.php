@@ -14,10 +14,10 @@ $id_user = $_SESSION['id'] ?? '';
 
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="./picture/bangchuyen.jpg" class="d-block w-100 h-75 m-3 rounded" alt="...">
+                <img src="./picture/bannertest1.png" class="d-block w-100 h-75 m-3 rounded" alt="...">
             </div>
             <div class="carousel-item">
-                <img src="./picture/home-bg.jpg" class="d-block w-100 h-75 m-3 rounded" alt="...">
+                <img src="./picture/bannertest.png" class="d-block w-100 h-75 m-3 rounded" alt="...">
             </div>
             <div class="carousel-item">
                 <img src="./picture/bangchuyen2.jpg" class="d-block w-100 h-75 m-3 rounded" alt="...">
